@@ -1,4 +1,5 @@
 import React, {ReactNode} from 'react'
+import styles from './styles.css'
 
 type Props = {
   elementOne: ReactNode,
@@ -6,7 +7,7 @@ type Props = {
 }
 
 const CustomGridItemSmall = ({elementOne, elementTwo}: Props) => {
-  return <div>
+  return<div className={styles["grid__itemSmall"]}>
     {elementOne}
     {elementTwo}
   </div>
