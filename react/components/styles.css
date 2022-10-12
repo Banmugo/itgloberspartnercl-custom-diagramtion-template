@@ -40,12 +40,12 @@
   margin: 10px;
   width: calc(50% - 20px);
   height: 500px;
-  background-color: lightseagreen;
+  /* background-color: lightseagreen; */
 }
 
 .grid__itemSmall{
   margin: 10px;
   width: calc(25% - 20px);
   height: 500px;
-  background-color: #6e9290;
+  /* background-color: #6e9290; */
 }
